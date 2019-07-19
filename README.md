@@ -11,6 +11,6 @@ Make sure to choose the correct site name: `site-name.live`. Use `dev`, `test`, 
 
 The first URL will be replaced. In the example above, it is: `://dev-site-name.pantheonsite.io/`.
 
-The second URL will replace each one found. in the example above, it is: `://www.damar.org/`.
+The second URL will replace each one found. In the example above, it is: `://www.damar.org/`.
 
 When you are ready to run the command for real, remove `--dry-run` from the end of the command, and run it again.
