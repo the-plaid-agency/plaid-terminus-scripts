@@ -3,7 +3,9 @@ A list of helpful terminus scripts for interacting with the Pantheon environment
 
 ## Search and Replace
 
-`terminus remote:wp site-name.live -- search-replace '://dev-site-name.pantheonsite.io/' '://www.damar.org/' --all-tables --verbose --dry-run`
+```
+terminus remote:wp site-name.live -- search-replace '://dev-site-name.pantheonsite.io/' '://www.damar.org/' --all-tables --verbose --dry-run
+```
 
 This script will run a dry run of your search and replace on the selected website database.
 
